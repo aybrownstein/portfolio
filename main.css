@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 20px;
+    text-align: center;
+}
+
+.navBar {
+    background-color: grey;
+}
+
+.menu,
+li {
+    display: inline;
+    padding-left: 100px;
+}
+
+.about {
+    background-color: ghostwhite;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    background-color: rgb(173, 173, 166);
+}
+
+.screenshot {
+    height: 200px;
+    width: 100px;
+}
+
+.contact {
+    background-color: rgb(241, 234, 220);
+    text-align: center;
+}
+
+.contact img {
+    height: 50px;
+    width: 50px;
+}
