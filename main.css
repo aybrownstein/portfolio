@@ -5,6 +5,7 @@
     body {
         background-color: #83EC8A;
         color: #12363A;
+        font-family: sans-serif;
     }
     
     .logo {
@@ -59,20 +60,33 @@
         width: 100px;
     }
     
+    .stay-tuned {
+        clear: both;
+        padding-top: 10px;
+    }
+    
+    .contact {
+        clear: both;
+    }
+    
     .contact img {
         height: 50px;
         width: 50;
     }
     
     .contact-img {
+        padding-top: 10px;
         display: flex;
         justify-content: space-around
     }
     
-    @media only screen and (max-width: 350px) {
+    @media only screen and (max-width: 400px) {
         .menu,
         li {
             padding-left: 0px;
+        }
+        .stay-tuned {
+            visibility: hidden;
         }
     }
     
@@ -80,5 +94,18 @@
         .menu,
         li {
             padding-left: 50px;
+        }
+        .stay-tuned {
+            visibility: hidden;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        .projects a {
+            display: inline;
+        }
+        .screenshot {
+            float: right;
+            margin-right: 600px;
         }
     }
