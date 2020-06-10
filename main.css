@@ -69,7 +69,7 @@
         justify-content: space-around
     }
     
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 350px) {
         .menu,
         li {
             padding-left: 0px;
