@@ -3,8 +3,8 @@
     }
     
     body {
-        background-color: #83EC8A;
-        color: #12363A;
+        background-color: #3BD12E;
+        color: rgb(86, 36, 90);
         font-family: sans-serif;
     }
     
@@ -12,6 +12,7 @@
         font-family: 'Oswald', sans-serif;
         font-size: 40px;
         font-weight: 600;
+        color: #C42ED1;
         text-align: center;
         padding: 10px 10px 25px 10px;
     }
@@ -56,8 +57,9 @@
     }
     
     .screenshot {
-        height: 200px;
-        width: 100px;
+        padding-top: 8px;
+        height: 225px;
+        width: 175px;
     }
     
     .wrapper {
