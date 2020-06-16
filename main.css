@@ -3,7 +3,9 @@
     }
     
     body {
-        background-color: #3BD12E;
+        background-image: url("images/nature-background.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         color: rgb(86, 36, 90);
         font-family: sans-serif;
     }
@@ -34,7 +36,6 @@
     
     .navBar {
         text-align: center;
-        background-color: burlywood;
     }
     
     .menu,
@@ -49,15 +50,16 @@
     }
     
     .about {
-        text-align: center;
+        padding-left: 20px;
     }
     
     .projects {
-        text-align: center;
+        padding-left: 20px;
     }
     
     .screenshot {
         padding-top: 8px;
+        padding-left: 10px;
         height: 225px;
         width: 175px;
     }
@@ -65,16 +67,13 @@
     .wrapper {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: center;
+        margin-top: 10px;
     }
     
     .stay-tuned {
-        clear: both;
+        text-align: center;
         padding-top: 10px;
-    }
-    
-    .contact {
-        clear: both;
     }
     
     .contact img {
@@ -88,17 +87,10 @@
         justify-content: space-around
     }
     
-    .stay-tuned {
-        visibility: hidden;
-    }
-    
     @media only screen and (min-width: 650px) {
         .menu,
         li {
             padding: 0 25px;
-        }
-        .stay-tuned {
-            visibility: visible;
         }
     }
     
@@ -106,5 +98,10 @@
         .menu,
         li {
             padding: 0 50px;
+        }
+        .screenshot {
+            height: 375px;
+            width: 300px;
+            margin-left: 20px;
         }
     }
