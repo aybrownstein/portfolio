@@ -8,6 +8,7 @@
         background-size: 100% 100%;
         color: rgb(86, 36, 90);
         font-family: sans-serif;
+        margin-left: 20px;
     }
     
     .logo {
@@ -49,14 +50,6 @@
         padding-left: 0;
     }
     
-    .about {
-        padding: 0px 20px;
-    }
-    
-    .projects {
-        padding: 0px 20px;
-    }
-    
     .screenshot {
         padding-top: 8px;
         padding-left: 10px;
@@ -87,6 +80,10 @@
         justify-content: space-around
     }
     
+    section {
+        margin: .5rem 0;
+    }
+    
     @media only screen and (min-width: 650px) {
         .menu,
         li {
@@ -103,5 +100,14 @@
             height: 375px;
             width: 300px;
             margin-left: 20px;
+        }
+        section {
+            margin: .5rem 4rem;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        section {
+            margin: .5rem 16rem;
         }
     }
