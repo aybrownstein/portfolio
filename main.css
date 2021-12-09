@@ -3,11 +3,10 @@
     }
     
     html {
-        background: url("images/nature-background.PNG");
+        background: url("images/nature-background.PNG") no-repeat center center fixed;
         background-size: cover;
-        min-height: 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
+        height: 100%;
+        overflow: hidden;
     }
     
     body {
