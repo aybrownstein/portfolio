@@ -2,10 +2,14 @@
         box-sizing: border-box;
     }
     
+    html {
+        background: url("images/nature-background.PNG") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    
     body {
-        background-image: url("images/nature-background.PNG");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
         color: rgb(86, 36, 90);
         font-family: sans-serif;
         margin-left: 20px;
